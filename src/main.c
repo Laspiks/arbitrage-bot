@@ -28,7 +28,7 @@ static void print_cycle(const Graph *g, const int *cycle, int len, int index) {
 }
 
 int main(int argc, char **argv) {
-  const char *default_bases[] = {"GBP", "JPY", "USD", "EUR"};
+  const char *default_bases[] = {"USD", "CAD", "EUR", "JPY"};
   const char *const *bases = default_bases;
   int n_bases = (int)(sizeof(default_bases) / sizeof(default_bases[0]));
   double min_gain = ARBITRAGE_MIN_GAIN;
